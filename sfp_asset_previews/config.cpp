@@ -63,6 +63,12 @@ class CfgVehicles {
         description = "System path where to store config.cpp and converted images";
         defaultValue = "C:\Your\Project\Folder";
       };
+      class PatchesClass
+      {
+        displayName = "Patches Class";
+        description = "Name of cfgPatches Class";
+        defaultValue = "your_mod";
+      };
       class Prefix
       {
         displayName = "Prefix";

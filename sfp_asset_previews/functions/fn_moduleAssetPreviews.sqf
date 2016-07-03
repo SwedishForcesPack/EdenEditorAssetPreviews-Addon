@@ -2,6 +2,7 @@ params ["_logic"];
 
 _mod = _logic getVariable "Mod";
 _outputPath = _logic getVariable "OutputPath";
+_patchesClass = _logic getVariable "PatchesClass";
 _prefix = _logic getVariable "Prefix";
 _processImages = _logic getVariable "ProcessImages";
 
@@ -10,6 +11,7 @@ _extension callExtension "init";
 
 _extension callExtension format ["setMod;%1", _mod];
 _extension callExtension format ["setOutputPath;%1", _outputPath];
+_extension callExtension format ["setPatchesClass;%1", _patchesClass];
 _extension callExtension format ["setPrefix;%1", _prefix];
 _extension callExtension format ["setProfileName;%1", profileName];
 
