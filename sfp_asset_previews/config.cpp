@@ -84,12 +84,12 @@ class CfgVehicles {
         {
           class ProcessImages {
             name = "Yes";
-            value = true;
+            value = 1;
             default = 1;
           };
           class SkipProcessImages {
             name = "No";
-            value = false;
+            value = 0;
           };
         };
       };
